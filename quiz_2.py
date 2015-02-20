@@ -8,6 +8,13 @@ print "If you answer incorrectly, one point will be subtracted from your current
 #score calculations
 score = 0
 
+#function
+def question(q,p,a):
+    print(q)
+    print(p)
+
+
+
 #first question
 print "Question #1: Which country currently has a female prime minister or president?"
 ans_1 = raw_input("Is it (a)Australia, (b)Liberia or (c)Iceland?")
@@ -21,7 +28,7 @@ else:
 #second question
 print "Question #2: In which country can you find most remnants of the Inca Empire?"
 ans_2 = raw_input("Is it (a)Peru, (b)Mexico, or (c)Brazil?")
-if ans_2 == "a":
+if ans_2 == "a" or ans_2 == "1":
     score = score + 2
     print ("Awesome! Your current score is %d." % score)
 else:
