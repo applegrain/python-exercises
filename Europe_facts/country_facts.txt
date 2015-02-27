@@ -1,0 +1,4 @@
+Name		Country		Time
+Angela Merkel		Germany		8 years
+Stefan Lofven		Sweden		5 months
+Vladimir Putin		Russia		Always
